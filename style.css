@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2 ;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+.container {
+    width: 900px;
+    height: 860px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 150px auto;
+    box-shadow:  1px 2px 3px 2px rgb(226, 247, 245);
+}
+.signup-part{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.container2{
+    width: 280px;
+    height: 100%;
+    margin: 70px auto;   
+}
+.title h1{
+    font-size: 3.5em;
+    font-weight: 800;
+    text-align: left;
+}
+.green-line{
+    width: 110px;
+    height: 9px;
+    background-color:  #19e995 ;
+    margin: -28px 0px;
+}
+.google-part{
+    width: 280px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 70px auto 50px auto;
+    line-height: 50px;
+    box-shadow: 1px 2px 2px 2px rgb(219,219,218);
+    font-weight: 700;
+}
+.google-part a{
+    text-decoration: none;
+    color: #929799;
+}
+.google-part img{
+    vertical-align: sub;
+    margin-right: 3px;
+
+}
+.devider {
+    margin: auto;
+    width: 280px;
+}
+.devider .line{
+    width: 33.33%;
+    height: 2px;
+    background-color: #dcdcdc;
+    float: left;
+}
+.devider .or{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    color: #adabab;
+    margin-top: -6px;
+}
+.signup-form {
+    margin: 30px auto;
+}
+.signup-form .field{
+    margin-bottom: 35px;
+}
+.signup-form .field label{
+    color: #807f7f;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 550;
+
+}
+.signup-form .field input{
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #e3edf1;
+    margin-top: 7px;
+}
+.signup-form .field input::placeholder{
+    color: rgb(184, 189, 189);
+    font-size: 16px;
+    position: relative;
+    top: 25;
+    left: 15px;
+}
+#password input::placeholder{
+    font-size: 28px;
+    letter-spacing: -2px;
+    color: rgb(157, 172, 172);
+    position: relative;
+    top: 4px;
+    left: 15px;
+}
+.signup-button button{
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    margin-top: -5px;
+    box-shadow:  1px 2px 2px 2px rgb(219,219,218);
+    background: linear-gradient(45deg,#0eaaea,rgb(5, 221, 120)) ;
+}
+.login p{
+    color: rgb(128, 131, 131);
+    font-weight: 600;
+}
+.login a{
+    color: rgb(8, 174, 240);
+}
+.image-part{
+    width: 50%;
+    background: linear-gradient(180deg,#0eaaea,rgb(5, 221, 120));
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    border-radius:0 30px 30px 0;
+}
+.image-part .img-shap{
+    width: 350px;
+    height: 550px;
+    margin: 160px auto;
+}
+.image-part .img-shap img{
+    width: 100%;
+    height: 100%;
+}
